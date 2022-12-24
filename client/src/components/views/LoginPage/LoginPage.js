@@ -4,7 +4,7 @@ import { loginUser } from '../../../_actions/user_action';
 // V6로 넘어오면서 history.push가 navigate로 바뀜
 import { useNavigate } from 'react-router-dom'
 
-function RegisterPage() {
+function LoginPage() {
     const dispatch = useDispatch();
     // V6로 넘어오면서 navigate로 바뀜 
     const navigate = useNavigate();
@@ -68,4 +68,4 @@ function RegisterPage() {
     )
 }
 
-export default RegisterPage
+export default LoginPage
