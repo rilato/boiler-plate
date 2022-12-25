@@ -5,7 +5,7 @@ import { registerUser } from '../../../_actions/user_action';
 import { useNavigate } from 'react-router-dom'
 
 // props는 로그인 성공 후 홈페이지로 이동하기 위해 설정
-function RegisterPage() {
+function RegisterPage(props) {
     const dispatch = useDispatch();
     // V6로 넘어오면서 navigate로 바뀜 
     const navigate = useNavigate();
